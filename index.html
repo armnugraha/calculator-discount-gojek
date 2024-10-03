@@ -134,11 +134,11 @@
                             <p>Detail Informasi:</p>
                         </div>
                         <div class="mb-4">
-                            <label for="total-price-input" class="block text-sm font-medium text-gray-700">Total Harga</label>
+                            <label for="total-price-input" class="block text-sm font-medium text-gray-700">Total Harga (Sebelum Discount)</label>
                             <input type="text" v-model="state.total_price" placeholder="xxx" @keypress="[numberInput($event)]" @input="addSeparator($event, state, 'total_price')" name="total-amount-input" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
                         </div>
                         <div class="mb-4">
-                            <label for="total-amount-input" class="block text-sm font-medium text-gray-700">Total Bayar</label>
+                            <label for="total-amount-input" class="block text-sm font-medium text-gray-700">Total Bayar (Setelah Discount)</label>
                             <input type="text" v-model="state.total_ammount" placeholder="xxx" @keypress="[numberInput($event)]" @input="addSeparator($event, state, 'total_ammount')" name="total-price-input" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
                         </div>
                     </div>
